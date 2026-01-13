@@ -1,0 +1,27 @@
+{
+  "name": "uni-notice-board",
+  "version": "1.0.0",
+  "scripts": {
+    "lint:html": "htmlhint src/*.html",
+    "lint:css": "stylelint styles/*.css",
+    "build": "parcel build src/*.html --dist-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wardah-aw/uni-notice-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wardah-aw/uni-notice-board/issues"
+  },
+  "homepage": "https://github.com/wardah-aw/uni-notice-board#readme",
+  "description": "",
+  "devDependencies": {
+    "htmlhint": "^1.8.0",
+    "parcel": "^2.16.3",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^39.0.1"
+  }
+}
