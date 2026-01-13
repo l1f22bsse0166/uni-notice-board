@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - feature/index-page
+      - feature/contact-page
+      - feature/admissions-page
+      - feature/exams-page
+      - feature/notices-page
       - develop
   pull_request:
     branches:
