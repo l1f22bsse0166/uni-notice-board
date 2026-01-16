@@ -232,3 +232,47 @@ footer {
 .apply-btn:hover {
     background-color: #002e66;
 }
+
+.exams-container {
+    flex: 1;
+    width: 100%;
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.exams-card {
+    background-color: #fff;
+    max-width: 700px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+    text-align: center;
+}
+
+.exams-card h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+.exams-card p {
+    font-size: 1.05rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.exams-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.exams-card ul li {
+    background-color: #f0f4ff;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.8rem;
+    border-left: 5px solid #004080;
+    font-size: 1rem;
+    text-align: left;
+}
