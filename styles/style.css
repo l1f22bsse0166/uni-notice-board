@@ -100,3 +100,135 @@ footer {
     padding: 1rem 0;
     font-size: 0.9rem;
 }
+
+
+/* ================= ADMISSION PAGE LAYOUT ================= */
+.admission-container {
+    flex: 1;
+    width: 100%;
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+/* ================= HERO SECTION ================= */
+.admission-hero {
+    background-color: #004080;
+    color: #fff;
+    width: 100%;
+    max-width: 900px;
+    padding: 2.5rem 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.admission-hero h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.admission-hero p {
+    font-size: 1.1rem;
+}
+
+/* ================= ADMISSION INFO ================= */
+.admission-info {
+    background-color: #fff;
+    max-width: 900px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+
+.admission-info h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+.admission-info p {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.admission-info ul {
+    padding-left: 1.2rem;
+}
+
+.admission-info ul li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+/* ================= ADMISSION SCHEDULE ================= */
+.admission-schedule {
+    background-color: #fff;
+    max-width: 900px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+
+.admission-schedule h2 {
+    color: #004080;
+    margin-bottom: 1rem;
+}
+
+.admission-schedule table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admission-schedule th,
+.admission-schedule td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.admission-schedule th {
+    background-color: #004080;
+    color: #fff;
+}
+
+.admission-schedule td {
+    color: #333;
+}
+
+/* ================= CALL TO ACTION ================= */
+.admission-cta {
+    background-color: #e8f0ff;
+    max-width: 900px;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.admission-cta h2 {
+    color: #004080;
+    margin-bottom: 0.5rem;
+}
+
+.admission-cta p {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.apply-btn {
+    background-color: #004080;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: #002e66;
+}
