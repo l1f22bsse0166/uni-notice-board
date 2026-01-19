@@ -23,8 +23,7 @@ jobs:
 
       - name: Pull latest Docker image
         run: |
-          # Replace 'latests_3' with the tag of your latest image
-          docker pull docker.io/${{ secrets.DOCKERHUB_USERNAME }}/uni-notice-board:latests_3
+          docker pull docker.io/${{ secrets.DOCKERHUB_USERNAME }}/uni-notice-board:latest
 
       - name: Trigger Render Deployment
         run: |
